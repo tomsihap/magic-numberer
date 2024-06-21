@@ -1,0 +1,27 @@
+{
+    "name": "tomsihap/magic-numberer",
+    "description": "Collection of integers to use without magic number !",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tomsihap\\MagicNumberer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas SIHAPANYA",
+            "email": "sihapanya.thomas@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    }
+}
+
